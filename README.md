@@ -455,15 +455,15 @@ train_loss, train_accuracy = model.evaluate(X_train, y_train)
 test_loss, test_accuracy = model.evaluate(X_test, y_test)
 
 print("Menggunakan Model CNN dengan Augmentasi Data dan Batch Normalization:")
-print(f"Akurasi pada data training: {train_accuracy:.4f}")
-print(f"Akurasi pada data testing: {test_accuracy:.4f}")
+print(f"Accuracy on data training: {train_accuracy:.4f}")
+print(f"Accuracy on data testing: {test_accuracy:.4f}")
 ```
 
     [1m1050/1050[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 6ms/step - accuracy: 0.9930 - loss: 0.0259
     [1m263/263[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m2s[0m 6ms/step - accuracy: 0.9883 - loss: 0.0531
     Menggunakan Model CNN dengan Augmentasi Data dan Batch Normalization:
-    Akurasi pada data training: 0.9919
-    Akurasi pada data testing: 0.9885
+    Accuracy on data training: 0.9919
+    Accuracy on data testing: 0.9885
     
 
 
@@ -488,7 +488,7 @@ plt.show()
 
 
     
-![png](output_13_1.png)
+<img src = 'https://github.com/anggapradanaa/Digit_Recognizer_CNN_Model/blob/main/Visualization.png'>
     
 
 
